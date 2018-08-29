@@ -46,9 +46,5 @@
 
 Dans le morceau de code présent, la partie `"js": function () {...}` permet d'executer ce code lorsque le `job` (ici `juicer`) est appelé; on créer un fallback lorsque la librairie trouver un élément avec la class `juicer` et executera le code présent dans la fonction, ici l'affichage du Feed.
 
-Il est aussi possible de passer des paramètres, exemple :
-```html
-<div class="juicer" data-user-id="IDUSER"></div>
-```
-
+Il est aussi possible de passer des paramètres sur le morceau de code à ajouter dans le html (qui sera remplacé, exemple dans index.hmtl)
 Le paramètre `data-user-id` est repris dans le service afin d'instancier celui-ci avec les bonnes informations.

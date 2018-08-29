@@ -45,9 +45,9 @@
 ## Exemple
 
 - Partie `tarteaucitron.service.js`\
-Chaque service possède un paramètre `"js"`, le code contenu dans ce paramètre est exécuter lorsqu'un job (avec le nom du service) est ajouté.
-Ainsi il est possible d'ajouter un fallback sur la classe `juicer` et de retourner un morceau de code (ici le social wall).
+Chaque service possède une ligne `"js": function () {...`, le code contenu dans cette fonction est exécuté lorsque le job (voir index.html) est ajouté.\
+Ainsi il est possible d'ajouter un fallback basé sur une classe spécifique (dans ce cas `juicer`) et d'exécuter une nouvelle fonction (ici retourner le social wall) lorsque cette classe est présente dans la page.
 
 
 - Partie `index.html` (optionnel)\
-Il est aussi possible d'ajouter un bout de code possédant une classe utilisé par le service (dans ce cas `juicer`) et d'y passer des paramètres récupérable et utilisable par le service (l'attribut `data-user-id`) pour retourner le morceau de code avec des paramètres.
+Il est possible d'ajouter un bout de code (à un endroit en particulier) possédant une classe utilisé par le fallback du service (dans ce cas `juicer`) et d'y passer des paramètres récupérable et utilisable par ce service (l'attribut `data-user-id`) dans la fonction.

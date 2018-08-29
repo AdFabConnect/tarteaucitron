@@ -50,4 +50,4 @@ Ainsi il est possible d'ajouter un fallback basé sur une classe spécifique (da
 
 
 - Partie `index.html` (optionnel)\
-Il est possible d'ajouter un bout de code (à un endroit en particulier) possédant une classe utilisé par le fallback du service (dans ce cas `juicer`) et d'y passer des paramètres récupérable et utilisable par ce service (l'attribut `data-user-id`) dans la fonction.
+Il est possible d'ajouter un bout de code (à un endroit en particulier) possédant une classe utilisée par le fallback du service (dans ce cas `juicer`) et d'y passer des paramètres récupérables et utilisables par ce service (l'attribut `data-user-id`) dans la fonction.

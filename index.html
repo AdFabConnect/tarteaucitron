@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>Tarteaucitron Example</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            // Initialisation of tarteaucitron
+            tarteaucitron.init({
+                "hashtag": "#tarteaucitron", /* Ouverture automatique du panel avec le hashtag */
+                "cookieName": "tarteaucitron", /* Nom du cookie */
+                "highPrivacy": false, /* désactiver le consentement implicite (en naviguant) ? */
+                "orientation": "bottom", /* le bandeau doit être en haut (top) ou en bas (bottom) ? */
+                "adblocker": false, /* Afficher un message si un adblocker est détecté */
+                "showAlertSmall": true, /* afficher le petit bandeau en bas à droite ? */
+                "cookieslist": true, /* Afficher la liste des cookies installés ? */
+                "removeCredit": true, /* supprimer le lien vers la source ? */
+                "handleBrowserDNTRequest": false, /* Deny everything if DNT is on */
+                //"cookieDomain": ".example.com" /* Nom de domaine sur lequel sera posé le cookie pour les sous-domaines */
+            });
+            // Add a Juicer job to tarteaucitron
+            (tarteaucitron.job = tarteaucitron.job || []).push('juicer');
+        </script>
+        <script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
+        <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+        <div class="juicer" data-user-id="USERID"></div>
+    </body>
+</html>

@@ -28,9 +28,9 @@
 
 ## Ajout d'un service
 
-- Des services sont déjà disponible de base avec la librairie, ils sont listés à cette adresse : [tarteaucitron.js services](https://opt-out.ferank.eu/fr/install/)
+- Des services sont déjà disponibles de base avec la librairie, ils sont listés à cette adresse (étape 3) : [tarteaucitron.js services](https://opt-out.ferank.eu/fr/install/)
 
-- Après l'initialisation de la librairie, ajouter le `job` correspondant au service pour l'ajouter au site (pour certain service, ajouter un bout de code pour afficher le service à cet emplacement).
+- Après l'initialisation de la librairie, ajouter le `job` correspondant au service pour l'ajouter au site (pour certains services, ajouter un bout de code pour afficher le service à cet emplacement).
 
 
 ## Création d'un service custom
